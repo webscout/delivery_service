@@ -1,0 +1,29 @@
+{
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "test": "jest",
+    "check-types": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7",
+    "jest": "^27.5.1",
+    "parcel": "^2.4.1",
+    "prettier": "2.6.2",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "@types/react": "^17.0.43",
+    "@types/react-dom": "^17.0.14",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.3.0"
+  },
+  "alias": {
+    "view": "./src/view",
+    "lib": "./src/lib"
+  }
+}

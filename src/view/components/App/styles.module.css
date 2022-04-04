@@ -1,0 +1,7 @@
+.nav {
+  margin-bottom: 10px;
+}
+
+.menuItem + .menuItem {
+  margin-left: 10px;
+}

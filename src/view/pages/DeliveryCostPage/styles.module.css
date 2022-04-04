@@ -1,0 +1,26 @@
+.routeInput {
+  margin-left: 10px;
+  width: 100px;
+}
+
+.example {
+  color: #777;
+  margin-top: 10px;
+}
+
+.submitButton {
+  margin-top: 10px;
+}
+
+.result {
+  margin-top: 10px;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.distanceMap {
+  margin-bottom: 10px;
+}
